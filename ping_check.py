@@ -51,5 +51,5 @@ def run_process(ips_prueba):
 
 if __name__ == "__main__":
 	result_ip=read_file("hosts.txt")
-if result_ip:	
-	run_process(result_ip)
+	if result_ip:	
+		run_process(result_ip)
